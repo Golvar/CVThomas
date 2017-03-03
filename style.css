@@ -14,9 +14,28 @@ h2 {
 	margin-bottom: 40px;
 }
 
+h3{
+	font-family: 'Lobster', cursive;
+	color :#bdc3c7;
 
+}
+
+.imgPerso{
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
 .row{
 	margin-bottom: 30px;
+}
+
+.tab{
+	margin-left: 50px;
+}
+
+.header{
+	border-radius: 30px;
+	background-color: rgba(1,1,1,0.7); 
 }
 
 #photoPerso {
@@ -29,6 +48,10 @@ h2 {
 	padding-top: 100px;
 	color :white;
 	background-image: url(image/keyboard.jpg);
+}
+.posFormation{
+	margin-left: 250px;
+	margin-bottom: 50px;
 }
 
 #myHeader p{
@@ -51,6 +74,12 @@ h2 {
   color: lightgrey;
 }
 #myFooter a:hover {
+  color: white;
+}
+#myHeader a{
+	color: lightgrey;
+}
+#myHeader a:hover {
   color: white;
 }
 
