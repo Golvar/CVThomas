@@ -23,8 +23,13 @@ h3{
 .imgPerso{
 	margin-top: 10px;
 	margin-left: 10px;
-
 }
+
+.imgNav{
+	width: 50px;
+	border-radius: 50%;
+}
+
 .row{
 	margin-bottom: 30px;
 }
