@@ -1,0 +1,61 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	color:#ecf0f1;
+}
+
+h2 {
+	font-family: 'Open Sans', cursive;
+	margin-bottom: 40px;
+}
+
+
+.row{
+	margin-bottom: 30px;
+}
+
+#photoPerso {
+	border-radius: 50%;
+	width : 100px;
+}
+#myHeader {
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	color :white;
+	background-image: url(image/keyboard.jpg);
+}
+
+#myHeader p{
+	font-family: 'Lobster', cursive;
+	color:#ecf0f1;
+}
+
+.feature {
+	font-weight: : 300;
+}
+
+#myFooter{
+	padding: 30px;
+	background-color: #212121;
+	color: lightgrey;
+
+}
+
+#myFooter a {
+  color: lightgrey;
+}
+#myFooter a:hover {
+  color: white;
+}
+
+p{
+	font-size : 16px;
+}
+
+img{
+	width: 150px;
+}
