@@ -1,10 +1,12 @@
+@import url(/timeline.css);
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
 
 h1{
 	font-family: 'Lobster', cursive;
-	color:#ecf0f1;
+	color:#black;
 }
 
 h2 {

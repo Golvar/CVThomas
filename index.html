@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="timeline.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -29,11 +30,13 @@
       <a href="#contacter" class="btn btn-primary btn-lg">Contacter</a>
 </div>
 
+
+<!-- COMPETENCES LANGAGE DE PROGRAMMATION (A FINIR)-->
     <div class="container" id="competence">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
           <div class="text-center">
-            <h2>Mes compétences</h2>
+            <h1>Mes compétences</h1>
           </div>
         </div>
     
@@ -53,54 +56,84 @@
             
           </div>
         </div>
-        
       </div>
     </div>
 
+<!-- Timline CV -->
     <div class="container" id="experience">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
-          <div class="text-center">
-            <h2>Mon experience</h2>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6">
-            <p>
-              <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-              <strong>Actuellement</strong> Sapeur-Pompier Volontaire à la caserne de Hoenheim
-            </p>
-            <p>
-              <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-              <strong>2016 </strong>, Juin & Août, surveillance aquatique plan d'eau du Baggersee 
-            </p>
-            <p>
-              <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-              <strong>2015 </strong>, Août, surveillance aquatique plan d'eau du Baggersee 
-            </p>
+           <div class="container">
+            <div class="page-header">
+                <h1 id="timeline" class="text-center">Mon experience </h1>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-6">
-            <p>
-              <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-              <strong>2014 </strong>, stage au CNRS dans le service informatique
-            </p>
-            <p>
-              <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-              <strong>2014 </strong>, Juillet, animateur Vie Sportive plan d'eau du Baggersee     
-            </p>
-            <p>
-              <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-              <strong>2013 </strong>, Août, animateur Vie Sportive plan d'eau du Baggersee  
-            </p>
-
-          </div>
+            <ul class="timeline">
+                <li>
+                  <div class="timeline-badge danger"><i class="glyphicon glyphicon-fire"></i></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Sapeur-pompier volontaire</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Actuellement</small></p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Depuis <strong>2013</strong> je suis sapeur-pompiers volontaire dans la caserne de Hoenheim </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-badge info"><i class="glyphicon glyphicon-chevron-right"></i></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Surveillance aquatique</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Juin 2016 - Août 2016</small></p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Lors du mois de Juin et d'Août grâce a mon <strong>BNSSA</strong> j'ai pu travailler en tant quand sauveteur aquatique sur le plan d'eau du Baggersee et du Lac Achard au sein de l'Eurométropole de Strasbourg. </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-badge info"><i class="glyphicon glyphicon-chevron-left"></i></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Surveillance aquatique</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Août 2015</small></p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Première année en tant que sauveteur aquatique sur le plan d'eau du Bagersee au sein de l'Eurométropole de Strasbourg.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-badge warning"><i class="glyphicon glyphicon-align-center"></i></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Stage</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2014, une semaine</small></p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Réalisation d'un stage d'une semaine au sein de l'équipe informatique du CNRS de Strasbourg.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-badge success"><i class="glyphicon glyphicon-arrow-left"></i></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Animateur</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Job d'été en tant qu'animateur au sein de la Vie Sportive de l'Eurométropole de Strasbourg</p>
+                    </div>
+                  </div>
+                </li>
+            </ul>
         </div>
-
-
-
-
-
       </div>
     </div>
 
+
+<!-- MA FORMATION -->
     <div class="container" id="formation">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -116,6 +149,8 @@
       </div>
     </div>
 
+
+<!-- ME CONTACTER, A AIRE DANS LE FOOTER AVEC UN FORMULAIRE POUR ENVOYER DES MAILS-->
     <div class="container" id="contacter">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
