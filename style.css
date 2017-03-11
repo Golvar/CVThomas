@@ -59,6 +59,12 @@ p{
 .posFormation{
 	margin-bottom: 50px;
 }
+
+.jumbotron h1{
+	color:rgb(58,83,155);
+}
+
+
 hr.style-two { 
 	border: 0; 
 	height: 1px; 
@@ -87,7 +93,7 @@ hr.style-two {
     background-image: url(image/keyboard.jpg);
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
