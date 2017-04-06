@@ -89,13 +89,11 @@ hr.style-two {
 }
 
 .parallax {
-    /* The image used */
+  
     background-image: url(image/keyboard.jpg);
-
-    /* Set a specific height */
     min-height: 500px;
 
-    /* Create the parallax scrolling effect */
+    /* effet de paralax */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
